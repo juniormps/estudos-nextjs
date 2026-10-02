@@ -1,9 +1,9 @@
 export default function DashboardLayout({ children }) {
-  return (
-    <section>
-      <nav>Links do Admin</nav>
+    return (
+        <section>
+            <nav>Links do Admin</nav>
 
-      <div>{children}</div>
-    </section>
-  );
+            <div>{children}</div>
+        </section>
+    );
 }
